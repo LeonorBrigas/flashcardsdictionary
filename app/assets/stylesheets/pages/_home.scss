@@ -1,6 +1,6 @@
 // Specific CSS for your home-page
 body {
-  background: url(https://cdn.dribbble.com/users/716122/screenshots/14271436/media/c87900c7e4a6b43bd755f2497ac0c322.jpg?compress=1&resize=1600x1200);
+  background: url(https://cdn.dribbble.com/users/3607983/screenshots/10945725/media/e67f51805301bb234ef8047de3cfb5f0.png?compress=1&resize=1600x1200);
   text-align: center;
 }
 
@@ -27,6 +27,10 @@ p {
 }
 
 .title-answer {
-  color:rgb(250, 206, 36);
+  color:#D6494C;
   font-weight: bold;
+}
+
+.invalid-feedback {
+  color: black;
 }
