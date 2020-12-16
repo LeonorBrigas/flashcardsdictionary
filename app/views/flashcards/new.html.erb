@@ -1,0 +1,7 @@
+<div class="form">
+  <%= simple_form_for @flashcard do |f| %>
+    <%= f.input :prompt %>
+    <%= f.input :answer %>
+    <%= f.button :submit, class: 'btn flash btn-dark'%>
+  <% end %>
+</div>

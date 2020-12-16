@@ -1,0 +1,24 @@
+<div class="card-container">
+  <h1 class="flashcards mt-2">Flashcards</h1>
+  <%= link_to "Add a Card",  new_flashcard_path, class: 'btn flash add-plus btn-dark mb-3' %>
+
+    <div class="row">
+      <% @flashcards.each do |f| %>
+      <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="card-flashcard">
+          <div class="card-prompt">
+            <h2><%= link_to f.prompt, flashcard_path(f) %></h2>
+            <div class = "card-destroy">
+                <%= link_to flashcard_path(f), method: :delete, data: { confirm: "Are you sure?"} do %>
+                <i class="fas fa-trash"></i>
+                <% end %>
+                <%= link_to edit_flashcard_path(f) do %>
+                <i class="fas fa-edit"></i>
+            </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

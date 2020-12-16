@@ -1,0 +1,8 @@
+<div class="card">
+  <div class="card-body">
+    <h1 class="title"><%= @flashcard.prompt %></h1>
+    <h1 class="title-answer"><%= @flashcard.answer %></h1>
+  </div>
+</div>
+
+<%= link_to "Back", flashcard_path(@flashcard), class: 'btn flash back btn-dark' %>

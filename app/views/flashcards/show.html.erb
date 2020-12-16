@@ -1,0 +1,15 @@
+<div class="card">
+  <div class="card-body">
+    <!-- missing: show flashcards in order of % correct -->
+    <h1 class="title"><%= @flashcard.prompt %></h1>
+    <div class="input">
+    <textarea name="guess" id="guess" cols="30" rows="5"></textarea>
+    <!-- missing: compare guess with answer (JS) -->
+    </div>
+    <%= link_to "Previous", flashcards_previous_path, class: 'btn flash btn-dark' %>
+    <%= link_to "Answer", flashcards_answer_path, class: 'btn flash btn-dark' %>
+    <%= link_to "Next", flashcards_next_path, class: 'btn flash btn-dark' %>
+  </div>
+</div>
+
+<%= link_to "Back", flashcards_path, class: 'btn flash back btn-dark' %>

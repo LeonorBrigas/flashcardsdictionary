@@ -1,0 +1,58 @@
+.card {
+  margin: auto;
+  margin-top: 60px;
+  width: 30rem;
+}
+
+.title {
+  color:black;
+  font-size: 60px;
+}
+
+.flash {
+  border-radius: 4px;
+  margin-left: 4px;
+}
+
+.back {
+  margin-top: 4px;
+}
+
+.card-container {
+  padding: 32px;
+  border: none;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.card-flashcard {
+  background: white;
+  margin: auto;
+  box-shadow: 5px 10px 8px #888888;
+  width: 80%;
+  height: 100px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  position: relative;
+  margin-bottom: 25px;
+  border-radius: 4px;
+}
+
+.card-prompt h2 {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  opacity: 0.7;
+}

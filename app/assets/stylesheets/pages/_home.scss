@@ -1,0 +1,32 @@
+// Specific CSS for your home-page
+body {
+  background: url(https://cdn.dribbble.com/users/716122/screenshots/14271436/media/c87900c7e4a6b43bd755f2497ac0c322.jpg?compress=1&resize=1600x1200);
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  color:white;
+  font-weight: lighter;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.title-span {
+  color: #000;
+  font-weight: 300;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.table {
+  text-align: center;
+}
+
+.title-answer {
+  color:rgb(250, 206, 36);
+  font-weight: bold;
+}

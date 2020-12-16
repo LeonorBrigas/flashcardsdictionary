@@ -1,0 +1,9 @@
+<div class="form">
+  <h4>Edit Flashcard</h4>
+  <%= simple_form_for @flashcard do |f| %>
+    <%= f.input :prompt %>
+    <%= f.input :answer %>
+    <%= f.button :submit, class: 'btn flash btn-dark'%>
+  <% end %>
+</div>
+<%= link_to "Back", flashcards_path, class: 'btn flash back btn-dark' %>
